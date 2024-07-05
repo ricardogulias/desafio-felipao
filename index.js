@@ -1,5 +1,7 @@
+//Desafio do Herói do Felipão da DIO!!!
+
 let nomeHeroi = "Ricardo";
-let quantidadeXP = 12000;
+let quantidadeXP = 3002;
 let qualificacaoHeroi;
 
 if (quantidadeXP <= 1000) {
@@ -19,6 +21,6 @@ if (quantidadeXP <= 1000) {
 } else if (quantidadeXP >= 10001) {
     qualificacaoHeroi = "Radiante";
 }
-console.log("O Heroi " + nomeHeroi + " tem " + quantidadeXP + " XPs e sua classificação é " + qualificacaoHeroi + ".");
+console.log("O Heroi de nome " + nomeHeroi + " está no nível de" + qualificacaoHeroi + ".");
 
 
