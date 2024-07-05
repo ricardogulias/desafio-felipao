@@ -7,8 +7,10 @@ if (quantidadeXP <= 1000) {
 } else if (quantidadeXP >= 1001 && quantidadeXP <= 2000) {
     qualificacaoHeroi = "Bronze";
 } else if (quantidadeXP >= 2001 && quantidadeXP <= 5000) {
-    qualificacaoHeroi = "Prata Ouro";
-} else if (quantidadeXP >= 5000 && quantidadeXP <= 8000) {
+    qualificacaoHeroi = "Prata";
+} else if (quantidadeXP >= 6001 && quantidadeXP <= 7000) {
+    qualificacaoHeroi = "Ouro";
+} else if (quantidadeXP >= 7001 && quantidadeXP <= 8000) {
     qualificacaoHeroi = "Platina Diamante";
 } else if (quantidadeXP >= 8001 && quantidadeXP <= 9000) {
     qualificacaoHeroi = "Ascendente";
