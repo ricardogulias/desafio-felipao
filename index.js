@@ -21,6 +21,6 @@ if (quantidadeXP <= 1000) {
 } else if (quantidadeXP >= 10001) {
     qualificacaoHeroi = "Radiante";
 }
-console.log("O Heroi de nome " + nomeHeroi + " está no nível de" + qualificacaoHeroi + ".");
+console.log("O Heroi de nome " + nomeHeroi + " está no nível de " + qualificacaoHeroi + ".");
 
 
